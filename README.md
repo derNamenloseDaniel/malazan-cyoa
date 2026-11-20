@@ -8,7 +8,7 @@ ihren Verlagen und von diesen nicht autorisiert. Alle Rechte am Originalwerk lie
 Rechteinhabern. Kein einziger Satz aus den Romanen steht in diesem Repository — die Prosa ist
 vollständig eigen geschrieben. Siehe [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
 
-Live: https://danielzaiser91.github.io/malazan-cyoa/
+Live: https://dernamenlosedaniel.github.io/malazan-cyoa/
 
 ## Was es ist
 
