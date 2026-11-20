@@ -6,7 +6,7 @@ Entscheidung.
 - [ ] **Projekt ins Portfolio eintragen, sobald sinnvoll** (öffentlich, stabil genug für eine
       kuratierte Beschreibung) — siehe Projects-Daten in
       `C:\code\ai\my website\src\app\data\projects.ts`
-      (Repo `danielzaiser91/Portfolio-daniel-zaiser.de`). Dazu der Arcade-Eintrag in
+      (Repo `derNamenloseDaniel/Portfolio-daniel-zaiser.de`). Dazu der Arcade-Eintrag in
       `src/app/data/games.ts` und ein Preview-Screenshot über `tools/capture-previews.js`.
       Timing, Kategorie und Texte bleiben eine bewusste Entscheidung, keine Automatik.
 - [ ] **Eigene Schriftart** selbst hosten (offene Lizenz, kein CDN-Aufruf). Aktuell laufen

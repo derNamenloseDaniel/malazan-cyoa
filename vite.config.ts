@@ -23,7 +23,7 @@ function versionManifest(): Plugin {
 
 /**
  * `base` NUR im Build: live liegt das Spiel unter
- * danielzaiser91.github.io/malazan-cyoa/ (Unterpfad → Assets brauchen den Prefix),
+ * dernamenlosedaniel.github.io/malazan-cyoa/ (Unterpfad → Assets brauchen den Prefix),
  * der Dev-Server soll aber weiter direkt auf localhost:5176/ laufen.
  */
 export default defineConfig(({ command }) => ({

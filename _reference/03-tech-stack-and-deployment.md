@@ -125,25 +125,25 @@ suite is where broken links get caught.
 
 ## 7. Deployment — GitHub Pages
 
-- Repo `danielzaiser91/malazan-cyoa`, **public** (it is a portfolio piece; the content *is* the
+- Repo `derNamenloseDaniel/malazan-cyoa`, **public** (it is a portfolio piece; the content *is* the
   product and there is nothing to hide).
 - `vite.config.ts`: `base: command === 'build' ? '/malazan-cyoa/' : '/'`.
 - Workflow `.github/workflows/deploy.yml`, triggered on push to `main` (and `workflow_dispatch`):
   `checkout → setup-node 22 → npm ci → check → test → build → touch dist/.nojekyll →
   actions/upload-pages-artifact → actions/deploy-pages`.
 - `concurrency: { group: deploy, cancel-in-progress: true }`.
-- Live at `https://danielzaiser91.github.io/malazan-cyoa/`. Pages needs ~2–3 minutes after the
+- Live at `https://dernamenlosedaniel.github.io/malazan-cyoa/`. Pages needs ~2–3 minutes after the
   push; when reporting a deploy, state the push time and the expected live time.
 - **Deploy only when the gate is green.** A red build never reaches `main`.
 
 ## 8. Portfolio and Arcade integration (do this once the game is playable end-to-end)
 
-Repo `danielzaiser91/Portfolio-daniel-zaiser.de`, local checkout `C:\code\ai\my website`.
+Repo `derNamenloseDaniel/Portfolio-daniel-zaiser.de`, local checkout `C:\code\ai\my website`.
 
 **a) Projects page** — add an entry to `src/app/data/projects.ts`:
 `name: 'malazan-cyoa'`, `category: 'fun'`, `tech: [...]`, bilingual `description` / `knowledge`
 (`LText`), `commits`, `started`, `lastTouched`, `estHours`,
-`demo: 'https://danielzaiser91.github.io/malazan-cyoa/'`, `preview: true`.
+`demo: 'https://dernamenlosedaniel.github.io/malazan-cyoa/'`, `preview: true`.
 Also add the repo to the `LANGUAGES` map (`'malazan-cyoa': 'TypeScript'`).
 
 **b) Arcade page** — add an entry to `src/app/data/games.ts` (`GAMES` array, German-only copy by
